@@ -1,16 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 section {
-    padding: 64px 103.55px;
+  padding: 64px 103.55px;
 }
 
 #navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px;
+  background: linear-gradient(45deg, #3c2626, #a20000);
+}
+
+#navbar div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+#navbar div img {
+  width: 80px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
 }
