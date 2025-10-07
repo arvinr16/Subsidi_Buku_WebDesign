@@ -26,7 +26,25 @@ section {
   width: 80px;
 }
 
+#navbar h1 {
+    background: linear-gradient(45deg, #a0a0a0, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .nav-link {
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+.nav-link li {
+    list-style-type: none;
+}
+
+.nav-link a {
+    background: linear-gradient(45deg, #a0a0a0, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
 }
