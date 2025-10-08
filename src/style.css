@@ -13,17 +13,18 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 5px;
+  padding: 30px 30px;
   background: linear-gradient(45deg, #3c2626, #a20000);
 }
 
-#navbar div {
+#navbar div:nth-of-type(1) {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 #navbar div img {
-  width: 80px;
+  width: 70px;
 }
 
 #navbar h1 {
