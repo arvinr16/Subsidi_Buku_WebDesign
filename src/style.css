@@ -13,7 +13,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px 30px;
+  padding: 30px 30px;
   background: linear-gradient(45deg, #3c2626, #a20000);
 }
 
@@ -39,8 +39,8 @@ section {
   border-radius: 50px;
   width: 88px;
   height: 88px;
-  top: 20px;
-  left: 20px;
+  top: 24px;
+  left: 19px;
   position: absolute;
   z-index: 0;
 }
