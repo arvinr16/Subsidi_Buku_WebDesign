@@ -18,9 +18,9 @@ section {
 }
 
 #navbar div:nth-of-type(1) {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 #navbar div img {
@@ -28,11 +28,15 @@ section {
   z-index: 1;
 }
 
+.navbar-img {
+  cursor: grab;
+}
+
 #navbar h1 {
-    background: linear-gradient(45deg, #a0a0a0, #ffffff);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: default;
+  background: linear-gradient(45deg, #a0a0a0, #ffffff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
 }
 
 .bg-putih {
@@ -47,19 +51,19 @@ section {
 }
 
 .nav-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
 }
 
 .nav-link li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-link a {
-    background: linear-gradient(45deg, #a0a0a0, #ffffff);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
+  background: linear-gradient(45deg, #a0a0a0, #ffffff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
