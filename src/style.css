@@ -32,6 +32,7 @@ section {
     background: linear-gradient(45deg, #a0a0a0, #ffffff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: default;
 }
 
 .bg-putih {
