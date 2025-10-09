@@ -25,11 +25,13 @@ section {
 
 #navbar div img {
   width: 66px;
+  pointer-events: none;
   z-index: 1;
 }
 
 .navbar-img {
   cursor: grab;
+  user-select: none;
 }
 
 #navbar h1 {
@@ -47,6 +49,7 @@ section {
   top: 24px;
   left: 19px;
   position: absolute;
+  pointer-events: none;
   z-index: 0;
 }
 
