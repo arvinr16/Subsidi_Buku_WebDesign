@@ -13,18 +13,19 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 30px;
+  padding: 26px 30px;
   background: linear-gradient(45deg, #3c2626, #a20000);
 }
 
 #navbar div:nth-of-type(1) {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 24px;
 }
 
 #navbar div img {
-  width: 70px;
+  width: 66px;
+  z-index: 1;
 }
 
 #navbar h1 {
@@ -33,10 +34,22 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
+.bg-putih {
+  background-color: white;
+  border-radius: 50px;
+  width: 88px;
+  height: 88px;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  z-index: 0;
+}
+
 .nav-link {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 17px;
 }
 
 .nav-link li {
