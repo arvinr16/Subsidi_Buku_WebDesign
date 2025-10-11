@@ -105,3 +105,14 @@ section {
   -webkit-text-fill-color: transparent;
 }
 /* Navbar/Header Section End */
+
+
+
+/* Landing Section Start */
+.typewriter {
+  font-size: 64px;
+  font-weight: 500;
+  background: linear-gradient(45deg, #3c2626, #a20000);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
