@@ -1,3 +1,4 @@
+// Grabbing effect in Header Start
 const bg = document.querySelector('.navbar-img');
 
 bg.addEventListener('mousedown', () => {
@@ -11,3 +12,4 @@ bg.addEventListener('mouseup', () => {
 bg.addEventListener('mouseleave', () => {
     bg.style.cursor = 'grab';
 });
+// Grabbing effect in Header End
