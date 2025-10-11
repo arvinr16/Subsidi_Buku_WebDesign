@@ -9,6 +9,7 @@ section {
   padding: 64px 103.55px;
 }
 
+/* Navbar/Header Section Start */
 #navbar {
   display: flex;
   align-items: center;
@@ -103,3 +104,4 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* Navbar/Header Section End */
