@@ -109,6 +109,12 @@ section {
 
 
 /* Landing Section Start */
+#landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #typewriter-div {
   display: flex;
   align-items: center;
