@@ -116,15 +116,31 @@ section {
 }
 
 #typewriter-div {
-  display: flex;
-  align-items: center;
-  padding: 50px 50px;
+  width: 500px;
+  overflow: hidden;
+  padding: 10px 10px;
 }
 
 #typewriter {
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 500;
   background: linear-gradient(45deg, #3c2626, #a20000);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+
+.pipe-landing {
+  background: linear-gradient(45deg, #3c2626, #a20000);
+  width: 1.5px;
+  height: 300px;
+  margin: 0 50px 0 50px;
+}
+
+.img-landing {
+  padding: 10px 10px;
+}
+
+.img-landing img {
+  width: 250px;
 }
