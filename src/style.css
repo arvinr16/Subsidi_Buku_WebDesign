@@ -109,7 +109,7 @@ section {
 
 
 /* Landing Section Start */
-.typewriter {
+#typewriter {
   font-size: 64px;
   font-weight: 500;
   background: linear-gradient(45deg, #3c2626, #a20000);
