@@ -24,6 +24,30 @@ let x = 0;
 let y = 0;
 let currentText = texts[y];
 let isDeleting = false;
-const speed = 80;
-const deleteSpeed = 50;
-const delay = 1000;
+const speeds = 60;
+const deleteSpeed = 40;
+const delay = 700;
+
+function typewriter() {
+    const element = document.getElementById('typewriter');
+
+    if (!isDeleting && x < currentText.length) {
+        element.innerHTML = currentText.substring(0, x + 1);
+        x++;
+        setTimeout(typewriter, speeds);
+    } else if (isDeleting && x > 0) {
+        element.innerHTML = currentText.substring(0, x - 1);
+        x--;
+        setTimeout(typewriter, deleteSpeed);
+    } else if (!isDeleting && x === currentText.length) {
+        isDeleting = true;
+        setTimeout(typewriter, delay);
+    } else if (isDeleting && x === 0) {
+        isDeleting = false;
+        y = (y + 1) % texts.length;
+        currentText = texts[y];
+        setTimeout(typewriter, delay);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", typewriter);
