@@ -111,23 +111,27 @@ section {
 /* Landing Section Start */
 #landing {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 #typewriter-div {
-  width: 500px;
+  width: 800px;
   overflow: hidden;
   padding: 10px 10px;
 }
 
 #typewriter {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 500;
   background: linear-gradient(45deg, #3c2626, #a20000);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
+}
+
+.pipe-img-div {
+  display: flex;
+  align-items: center;
 }
 
 .pipe-landing {
