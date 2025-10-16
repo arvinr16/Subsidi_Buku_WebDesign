@@ -106,8 +106,6 @@ section {
 }
 /* Navbar/Header Section End */
 
-
-
 /* Landing Section Start */
 #landing {
   display: flex;
@@ -115,18 +113,54 @@ section {
 }
 
 #typewriter-div {
+  display: flex;
+  align-items: center;
   width: 800px;
   overflow: hidden;
   padding: 10px 10px;
+  height: 80px;
+  position: relative;
 }
 
 #typewriter {
+  display: inline-block;
+  height: 1em;
+  line-height: 1;
   font-size: 42px;
   font-weight: 500;
   background: linear-gradient(45deg, #3c2626, #a20000);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
+}
+
+#typewriter-div a {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.btn-login-landing {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 28px;
+  color: white;
+  background: linear-gradient(45deg, #3c2626, #a20000);
+  border: 3px solid #4e3737;
+  border-radius: 15px;
+  background-clip: border-box;
+  -webkit-text-fill-color: white;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-login-landing:hover {
+  background: linear-gradient(45deg, #3c2626, #a20000);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 3px solid #866363;
+  box-shadow: 2px 5px 10px rgb(88, 53, 53)
 }
 
 .pipe-img-div {
