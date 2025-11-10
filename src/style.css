@@ -107,7 +107,7 @@ section {
 /* Navbar/Header Section End */
 
 /* Landing Section Start */
-#landing {
+section#landing {
   display: flex;
   justify-content: space-between;
 }
@@ -157,7 +157,7 @@ section {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 3px solid #866363;
-  box-shadow: 2px 5px 10px rgb(88, 53, 53)
+  box-shadow: 2px 5px 10px rgb(88, 53, 53);
 }
 
 .pipe-img-div {
@@ -182,4 +182,34 @@ section {
 /* Landing Section End */
 
 /* Dashboard Section Start */
+section#dashboard {
+  display: flex;
+  justify-content: center;
+  padding-top: 108px;
+}
 
+.dashboard-div {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  overflow: hidden;
+}
+
+.dash-item {
+  position: relative;
+  height: 300px;
+}
+
+.dash-item:after {
+  content: '';
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.dash-item img {
+  height: 300px;
+}
